@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>MarkupDev</title>
+</head>
+<body>
+    <header class="header">
+        <section class="header__top">
+            <div class="header__top-logo">
+                <img class="logo" src="./images/Logo.svg" alt="">
+            </div>
+            <div class="header__top__icons">
+                <p class="header__top__icons-profileName">Arthur Wood</p>
+                <div class="header__top__icons__profImg">
+                    <img class="profile-img" src="./images/bread-img.svg" alt="">
+                    <img class="dropdown" src="./images/dropdown.svg" alt="">
+                </div>
+                <div class="header__top__icons-group">
+                    <img class="notifications" src="./images/notifications.svg" alt="">
+                    <img class="gift" src="./images/present.svg" alt="">
+                    <img class="m-letter" src="./images/medium.svg" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="header__nav">
+            <nav class="header__nav-navbar">
+                <a href="#" class="feed"><span></span>FEED</a>
+                <a href="#" class="explore"><span></span>EXPLORE</a>
+                <a href="#" class="discussions"><span></span>DISCUSSIONS</a>
+            </nav>
+            <aside class="header__nav-adding">
+                <p>+</p>
+            </aside>
+        </section>        
+    </header>
+    <main class="main">
+        <aside class="main__profile">
+            <header class="main__profile__header">
+                <img src="./images/main-img.svg" alt="" class="main-photo">
+                <section class="main__profile__header-title">
+                    <p class="name">Benjamin Clementine</p>
+                    <p class="link">@benclementine</p>
+                    <div class="title-edit">
+                        <img src="./images/edit.svg" alt="" class="edit">
+                        <p class="title-edit-text">Edit Profile</p>
+                    </div>
+                </section>
+                <section class="main__profile__header__menu">
+                    <button class="menu-button" onclick="showModal()">
+                        <img src="./images/dots.svg" alt="">
+                    </button>
+                    <section class="main__profile__header__menu-desc">
+                        <a class="report" href="#">
+                            <img src="./images/report.svg" alt="">
+                            <p>Report User</p>
+                        </a>
+                        <a class="block" href="#">
+                            <img src="./images/user-block.svg" alt="">
+                            <p>Block User</p>
+                        </a>
+                    </section>
+                </section>
+            </header>
+            <section class="main__profile__info">
+                <div class="main__profile__info-item">
+                    <p class="number">45</p>
+                    <p class="desc">synths</p>
+                </div>
+                <div class="main__profile__info-item">
+                    <p class="number">110</p>
+                    <p class="desc">followers</p>
+                </div>
+                <div class="main__profile__info-item">
+                    <p class="number">322</p>
+                    <p class="desc">following</p>
+                </div>
+            </section>
+            <p class="main__profile-desc">
+                Cryptocurrencies including Ethereum, Ripple, and Litecoin have all plunged between 20 to 
+                30 percent each, according to CoinMarketCap. Here is the latest Ripple price news and live 
+                updates on XRP, bitcoin and Ethereum.
+            </p>
+        </aside>
+        <section class="main__articles">
+            <section class="main__articles-checkbox-staff">
+                <p class="public">Public</p>
+                <div class="checkbox-wrapper">
+                    <input id="my-checkbox" class="my-checkbox" type="checkbox" checked>
+                    <label for="my-checkbox"></label>
+                </div>
+                <p class="private">Private</p>
+            </section>
+            <section class="main__articles__boxes">
+                <article class="main__articles__boxes-item">
+                    <div class="title">
+                        <p></p>
+                    </div>
+                    <p class="main-part">New air routes that promise cheap flights in</p>   
+                    <div class="bottom">
+                        <div class="name-of-article">
+                            <div class="circle"></div>
+                            <p class="name">Gregory Watkins</p>
+                        </div>
+                        <div class="bottom-right">
+                            <p class="share">Share</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="main__articles__boxes-item">
+                    <div class="title">
+                        <p></p>
+                    </div>
+                    <p class="main-part">New air routes that promise cheap flights in</p>                    
+                    <div class="bottom">
+                        <div class="name-of-article">
+                            <div class="circle"></div>
+                            <p class="name">Gregory Watkins</p>
+                        </div>
+                        <div class="bottom-right">
+                            <p class="share">Share</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="main__articles__boxes-item">
+                    <div class="title">
+                        <p><span class="shared">Shared to</span><span class="link">#discussionaboutanimgttddsddddddddddddddddddd</span></p>
+                    </div>
+                    <p class="main-part">New air routes that promise cheap flights in</p>   
+                    <div class="bottom">
+                        <div class="name-of-article">
+                            <div class="circle"></div>
+                            <p class="name">Gregory Watkins</p>
+                        </div>
+                        <div class="bottom-right">
+                            <img src="./images/play.svg" alt="">                            
+                            <p class="number">88</p>
+                            <img src="./images/like.svg" alt="">
+                            <p class="number">24</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="main__articles__boxes-item">
+                    <div class="title">
+                        <img src="./images/link.svg" alt="">
+                        <p>Shared via weblink</p>
+                    </div>
+                    <p class="main-part">New air routes that promise cheap flights in</p>   
+                    <div class="bottom">
+                        <div class="name-of-article">
+                            <div class="circle"></div>
+                            <p class="name">Gregory Watkins</p>
+                        </div>
+                        <div class="bottom-right">
+                            <img src="./images/play.svg" alt="">                            
+                            <p class="number">88</p>
+                            <img src="./images/like.svg" alt="">
+                            <p class="number">24</p>
+                        </div>
+                    </div>
+                </article>
+            </section>
+        </section>
+    </main>
+    <script>
+        let flag = false;
+        function showModal(){
+            if(flag){
+                document.querySelector('.main__profile__header__menu-desc').style.display = "flex";
+            } else {
+                document.querySelector('.main__profile__header__menu-desc').style.display = "none";
+            }
+            flag = !flag;
+        }
+    </script>
+</body>
+</html>
