@@ -77,6 +77,7 @@ body {
 }
 .header__nav-adding {
   width: 64px;
+  min-width: 64px;
   height: 64px;
   border-radius: 50%;
   background: linear-gradient(135deg, #FF974F 0%, #E32C75 100%);
@@ -343,6 +344,7 @@ body {
 @media screen and (max-width: 768px) {
   .main {
     margin: 70px auto 0;
+    padding: 0 20px;
     width: 350px;
     align-items: center;
     flex-direction: column;
