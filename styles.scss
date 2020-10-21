@@ -8,6 +8,8 @@
 }
 
 body{
+    position: absolute;
+    width: 100%;
     background-color: rgba(236, 241, 248, .4);
 }
 
@@ -287,6 +289,7 @@ body{
                     justify-content: space-between;
                     .name-of-article{
                         display: flex;
+                        align-items: center;
                         .circle{
                             width: 24px;
                             height: 24px;
@@ -295,6 +298,7 @@ body{
                             margin-right: 8px;
                         }
                         .name{
+                            min-width: 115px;
                             font-weight: 600;
                             font-size: 14px;
                             line-height: 24px;
@@ -352,10 +356,10 @@ body{
     .main{
         margin: 70px auto 0;
         padding: 0 20px;
-        width: 350px;
         align-items: center;
         flex-direction: column;
         &__profile{
+            width: auto;
             margin-right: 0;
             &__header__menu-desc{
                 right: 0;
@@ -371,6 +375,16 @@ body{
                 width: 100%;
                 &-item{
                     width: 100%;
+                    .main-part{
+                        font-size: 27px;
+                    }
+                    .bottom{
+                        .bottom-right{
+                            p{
+                                line-height: 48px;
+                            }
+                        }
+                    }
                 }
             }
         }
